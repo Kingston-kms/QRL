@@ -21,9 +21,9 @@ class UserConfig(object):
 
         UserConfig.__instance = self
 
-        self.genesis_prev_headerhash = b'The sleeper must awaken'
-        self.genesis_timestamp = 1530004179
-        self.genesis_difficulty = 10000000
+        self.genesis_prev_headerhash = b'My awesome form of QRL'
+        self.genesis_timestamp = 1571317341
+        self.genesis_difficulty = 10000
 
         # Default configuration
         self.mining_enabled = False

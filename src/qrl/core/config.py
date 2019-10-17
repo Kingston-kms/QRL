@@ -38,10 +38,7 @@ class UserConfig(object):
         self.max_redundant_connections = 5  # Number of connections allowed from nodes having same IP
         self.enable_peer_discovery = True  # Allows to discover new peers from the connected peers
 
-        self.peer_list = ['35.178.79.137',
-                          '35.177.182.85',
-                          '18.130.119.29',
-                          '18.130.25.64']
+        self.peer_list = ['192.168.56.100','192.168.56.105']
 
         self.p2p_local_port = 19000  # Locally binded port at which node will listen for connection
         self.p2p_public_port = 19000  # Public port forwarding connections to server
